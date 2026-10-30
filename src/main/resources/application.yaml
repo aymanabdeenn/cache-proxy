@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: caching-proxy
+server:
+  port: ${port:8080}
+args:
+  origin: ${origin:https://www.google.com}
